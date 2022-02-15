@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina formulario</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form class="post" method="get" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="jp" />
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>
+                Primeiro nome:<br />
+                <input type="text" name="usuario" placeholder="Usuario" maxlength="20" autocomplete="on" autofocus
+                    required />
+            </label><br />
+            <label>
+                sobrenome:<br />
+                <input type="text" name="lastname" placeholder="sobrenome" maxlength="8" required />
+            </label><br />
+            <label>
+                Foto::<br />
+                <input type="file" name="photo" accept="image/*" />
+            </label><br />
+            <label>
+                Idade:<br />
+                <input type="number" name="age" min="18" max="50" />
+            </label><br />
+            <label>
+                Data de nascimento:<br />
+                <input type="date" name="birthdate" max="2010-01-15" required />
+            </label><br />
+            <label>
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais</legend>
+            <label>
+                Empresa: <br />
+                <input type="text" name="companyname" />
+            </label>
+            <label>
+                cargo: <br />
+                <input type="text" name="companyjobtittle" />
+            </label><br />
+        </fieldset>
+
+        <button>CADASTRAR</button>
+
+    </form>
+
+</body>
+
+</html>

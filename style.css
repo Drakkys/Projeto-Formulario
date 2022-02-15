@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2019/07/20190729092949.jpg);
+  background-size: 100vw 100vh;
+}
+label {
+  display: block;
+  margin-top: 0px;
+}
+
+input [type="text"],
+textarea {
+  padding: 10px;
+  width: 250px;
+  font-size: 10px;
+  border: 10px solid #ccc;
+  outline: 0;
+  margin-bottom: 10px;
+}
+button:hover {
+  padding: 2px;
+  font-size: 15px;
+}
+fieldset {
+  background-color: #ccc;
+  margin-bottom: 25px;
+  border: 2px solid rgb(18, 156, 190);
+}
+legend {
+  background-color: #1e08e0;
+  color: white;
+  padding: 5px;
+}
+form {
+  margin-top: 30vh;
+}
